@@ -1,0 +1,12 @@
+ConnectionStrings: 
+    PolicyConnection: Data Source=microservices.demo.policy.db;Initial Catalog=Microservices.Demo.Policy;Persist Security Info=True;User ID=sa;Password=Password1234
+    ProductConnection: Data Source=microservices.demo.product.db;Initial Catalog=Microservices.Demo.Product;Persist Security Info=True;User ID=sa;Password=Password1234
+ServicesUrl:
+    PolicyApiUrl: http://Microservices.Demo.policy/api/policy
+    ProductApiUrl: http://Microservices.Demo.Product.API/api/product
+   
+ElasticApm:
+    SecretToken: 
+    ServerUrls: http://microservices.demo.apm-server:8200
+    ServiceName: Microservices.Demo.Report.API
+    Environment: production
