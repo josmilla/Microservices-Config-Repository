@@ -1,5 +1,5 @@
 ConnectionStrings: 
-    PricingConnection: User ID=postgres;Password=Password1234;Database="Microservices.Demo.Pricing";Host=microservices.demo.pricing.db;Port=5432
+    PricingConnection: User ID=postgres;Password=Password1234;Database="Microservices.Demo.Pricing";Host=microservices.demo.pricing.db;Port=54321
 ElasticApm:
     SecretToken: 
     ServerUrls: http://microservices.demo.apm-server:8200
