@@ -4,7 +4,7 @@ AuthSettings:
         - https://localhost:44300  
 SecurityDatabaseSettings:
     UsersCollectionName: Users
-    ConnectionString: mongodb://microservices.demo.auth.db:27018
+    ConnectionString: mongodb://microservices.demo.auth.db:27017
     DatabaseName: SecurityDB
 ElasticApm:
     SecretToken: 
