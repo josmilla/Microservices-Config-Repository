@@ -144,9 +144,6 @@ Routes:
             userType: SALESMAN      
         DangerousAcceptAnyServerCertificateValidator: true
     -
-
-
-           
 GlobalConfiguration:
     RequestIdKey: OcRequestId
     AdministrationPath: /administration
